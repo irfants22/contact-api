@@ -9,7 +9,7 @@
 - push an existing repository
 ```
 git init
-git remote add origin https://github.com/irfants22/contact-api.git
+git remote add origin https://github.com/user/repository.git
 git branch -M main
 git add
 git commit
