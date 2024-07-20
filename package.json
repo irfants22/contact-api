@@ -8,6 +8,8 @@
     "test": "jest -i",
     "start": "node src/main.js",
     "dev": "nodemon src/main.js",
+    "migrate": "npx prisma migrate deploy",
+    "rebuild": "npm run migrate && npm run start",
     "postinstall": "npm rebuild bcrypt"
   },
   "jest": {
