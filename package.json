@@ -7,7 +7,8 @@
   "scripts": {
     "test": "jest -i",
     "start": "node src/main.js",
-    "dev": "nodemon src/main.js"
+    "dev": "nodemon src/main.js",
+    "postinstall": "npm rebuild bcrypt"
   },
   "jest": {
     "transform": {
